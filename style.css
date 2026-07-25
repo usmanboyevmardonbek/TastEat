@@ -2211,6 +2211,10 @@ a {
         margin-left: 20px;
     }
 
+    .submit-button {
+        padding: 20px;    
+    }
+
     .menu-title {
         padding-top: 50px;
     }

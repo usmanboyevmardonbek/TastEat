@@ -46,7 +46,6 @@ document.addEventListener("DOMContentLoaded", () => {
     function updateLangButton(lang) {
         const btn = document.querySelector("#langToggle");
         const img = btn.querySelector("img");
-        console.log(img);
         
         const span = btn.querySelector("span");
 
