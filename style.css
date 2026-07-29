@@ -15,6 +15,11 @@ body {
     overflow-x: hidden;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -1926,6 +1931,21 @@ a {
     .menu-title {
         padding-top: 30px;
     }
+
+    .main-bottom {
+        position: relative;
+    }
+
+    .navbar-nav.active {
+        min-height: 80vh;
+        overflow-y: auto;
+    }
+
+    .main-call a,
+    .resrevation__header a {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -1948,7 +1968,7 @@ a {
     }
 
     .image-round img {
-        width: 260px;
+        width: 200px;
     }
 
     .main-top {
