@@ -361,7 +361,7 @@ main {
 .starter__content {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: .6fr 1fr;
+    grid-template-columns: 0.8fr 1fr;
     align-items: start;
 
 
