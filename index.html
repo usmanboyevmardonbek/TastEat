@@ -1,0 +1,1014 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Usmanboyev Mardonbek" />
+  <meta name="description" content="Website Food" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="icon" href="images/favicon/restaurantate-favicon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <title>TastEat</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-top">
+      <div class="container">
+        <div class="main-top">
+          <div class="main-call">
+            <a href="tel:123 456 789" data-i18n="call">Call - 123 456 789</a>
+          </div>
+          <div class="logo-top">
+            <img src="images/logo.png" alt="header logo" />
+          </div>
+          <div class="resrevation__header">
+            <a href="#" data-i18n="reservation_btn">Reservation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+        <div class="main-bottom">
+          <button class="hamburger-btn" id="hamburgerBtn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <nav class="navbar-nav" id="navbarNav">
+            <ul>
+              <li><a href="#home" class="active" data-i18n="nav_home">Home</a></li>
+              <li><a href="#about us" data-i18n="nav_about">About Us</a></li>
+              <li><a href="#our-menu" data-i18n="nav_menu">Our Menu</a></li>
+              <li><a href="#pages" data-i18n="nav_pages">Pages</a></li>
+              <li><a href="#blog" data-i18n="nav_blog">Blog</a></li>
+              <li><a href="#contact" data-i18n="nav_contact">Contact Us</a></li>
+            </ul>
+          </nav>
+
+          <div class="lang-switcher">
+            <button class="lang-current" id="langToggle">
+              <img src="./images/lang/united-states.png" alt="EN" class="lang-flag">
+              <span>EN</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <ul class="lang-dropdown" id="langDropdown">
+              <li data-lang="en">
+                <img src="./images/lang/united-states.png" alt="EN" class="lang-flag">
+                EN
+              </li>
+              <br>
+
+              <li data-lang="ru">
+                <img src="./images/lang/russia.png" alt="RU" class="lang-flag">
+                RU
+              </li>
+              <br>
+
+              <li data-lang="uz">
+                <img src="./images/lang/uzbekistan.png" alt="UZ" class="lang-flag">
+                UZ
+              </li>
+              <br>
+
+            </ul>
+          </div>
+
+          <div class="social-media__item">
+            <a href="#" class="social-media__items"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-media__items"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-media__items"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="social-media__items"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="home-section" id="home-section">
+      <div class="container">
+        <div class="home-content">
+          <div class="home-info">
+            <h1 class="home-info__title">
+              <span data-i18n="hero_title_1">Welcome to</span>
+              <span data-i18n="hero_title_2">Restaurant</span>
+            </h1>
+            <p class="home-info__desc" data-i18n="hero_desc">
+              The people, food and the prime locations make the perfect place
+              good friends & family to come together and have great time.
+            </p>
+            <a href="#" class="home-info__link" data-i18n="view_menu">View Menu</a>
+          </div>
+
+          <div class="home-img">
+            <div class="image-round">
+              <img src="images/home-img-1.jpg" alt="home-img-1" />
+            </div>
+
+            <div class="home-img-2">
+              <img src="images/home-img-2.svg" alt="home-img-2" class="rounded-img" />
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+  </main>
+  <div class="detail-section">
+    <div class="container">
+      <div class="detail-item">
+        <div class="detail-items">
+          <img src="./images/details-1.png" alt="details-1">
+
+          <div class="detail-content__wrap">
+            <h2 class="detail-title" data-i18n="locate_us">Locate Us</h2>
+            <p class="detail-content" data-i18n="locate_address">Riverside 25, San Diego, California</p>
+          </div>
+
+        </div>
+
+        <div class="detail-items">
+          <img src="./images/details-2.png" alt="details-2">
+
+          <div class="detail-content__wrap">
+            <h2 class="detail-title" data-i18n="open_hours">Open Hours</h2>
+            <p class="detail-content" data-i18n="open_time">Mon To Fri 9:00 AM - 9:00 PM</p>
+          </div>
+
+        </div>
+
+        <div class="detail-items">
+          <img src="./images/details-3.png" alt="details-3">
+
+          <div class="detail-content__wrap">
+            <h2 class="detail-title" data-i18n="reservation">Reservation</h2>
+            <p class="detail-content">restaurantate@gmail.com</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="story__section">
+    <div class="container">
+      <div class="story-content">
+        <div class="story-img">
+          <img src="/images/story-image.png" alt="story-image">
+        </div>
+
+        <div class="story__parse">
+          <div class="story-one">
+            <h2 class="story-one__title" data-i18n="story_title">The Delicious Story</h2>
+            <p class="story-one__content" data-i18n="story_desc">The people, food and the prime locations make the
+              perfect <br> place for the
+              friends & family to come together and have great time.</p>
+          </div>
+
+          <div class="parse-2">
+            <div class="story-two">
+              <h2 class="story-two__title">2018</h2>
+              <p class="story-past__title" data-i18n="story_2018">Plan for this restaurant to <br> deliver healthy food.
+              </p>
+            </div>
+
+            <div class="story-two">
+              <h2 class="story-two__title">2022</h2>
+              <p class="story-past__title" data-i18n="story_2022">Happily in the fourth year <br> by fulfill the motto.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="josefne-text">
+            <p class="josefine-title">JOSEFINE</p>
+            <img src="./images/josefina-1.png" alt="josefina-1">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="starters__section">
+    <div class="container">
+      <div class="starter__content">
+        <div class="sticky__item">
+          <div class="home-menu__title">
+            <p class="starter-subtitle" data-i18n="menu_subtitle">Menu</p>
+            <h3 class="starters__title" data-i18n="starters_title">
+              Try Our Special dishes
+            </h3>
+            <p class="starter-text" data-i18n="starters_text">
+              Every time you perfectly dine with us, it should <br> happy for great inspired food in an environment <br>
+              designed with individual touches unique to the local <br> area.
+            </p>
+
+            <div class="starter-item">
+              <img src="./images/starter-img.jpg" alt="starter-img">
+            </div>
+
+            <a href="#" class="starter-button" data-i18n="see_all_dishes">See all dishes</a>
+
+          </div>
+        </div>
+
+        <div class="home-menu__item">
+          <div class="menu-wrap">
+            <h4 class="menu-title" data-i18n="starters">Starters</h4>
+            <div class="menu-item">
+              <img src="images/starter-1.jpg" alt="starter-1">
+              <div class="menu-detail">
+                <h4 class="item-name" data-i18n="raw_scallops">Raw Scallops from Erquy</h4>
+                <p class="desc-name" data-i18n="raw_scallops_desc">Shuck the scallop to that used for oysters</p>
+              </div>
+
+              <div class="dot-line"></div>
+              <div class="price-wrap">
+                <h4 class="wrap-item">
+                  $40
+                </h4>
+              </div>
+            </div>
+
+
+            <div class="menu-item">
+              <img src="images/starter-2.jpg" alt="starter-2">
+              <div class="menu-detail">
+                <h4 class="item-name" data-i18n="spring_roll">Spring Roll</h4>
+                <p class="desc-name" data-i18n="spring_roll_desc">Add oil to a hot pan spring onion whites</p>
+              </div>
+
+              <div class="dot-line"></div>
+              <div class="price-wrap">
+                <h4 class="wrap-item">
+                  $20
+                </h4>
+              </div>
+            </div>
+
+
+            <div class="menu-item">
+              <img src="images/starter-3.jpg" alt="starter-3">
+              <div class="menu-detail">
+                <h4 class="item-name" data-i18n="french_onion">French Onion Soup</h4>
+                <p class="desc-name" data-i18n="french_onion_desc">Wheat flour, apple cider vinegar, bread</p>
+              </div>
+
+              <div class="dot-line"></div>
+              <div class="price-wrap">
+                <h4 class="wrap-item">
+                  $25
+                </h4>
+              </div>
+            </div>
+
+
+            <div class="menu-item">
+              <img src="images/starter-4.jpg" alt="starter-4">
+              <div class="menu-detail">
+                <h4 class="item-name" data-i18n="tomato_bruschetta">Tomato Bruschetta</h4>
+                <p class="desc-name" data-i18n="tomato_bruschetta_desc">Bread, olive oil, garlic, black pepper</p>
+              </div>
+
+              <div class="dot-line"></div>
+              <div class="price-wrap">
+                <h4 class="wrap-item">
+                  $30
+                </h4>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="menu-wrap">
+            <h4 class="menu-title" data-i18n="main_dish">Main Dish</h4>
+            <div class="menu-item">
+              <img src="images/starter-5.jpg" alt="starter-5">
+              <div class="menu-detail">
+                <h4 class="item-name" data-i18n="grilled_salmon">Grilled Salmon with Dill Sauce</h4>
+                <p class="desc-name" data-i18n="grilled_salmon_desc">Brown sugar, salmon fillet, Dijon mustard</p>
+              </div>
+
+              <div class="dot-line"></div>
+              <div class="price-wrap">
+                <h4 class="wrap-item">
+                  $40
+                </h4>
+              </div>
+            </div>
+
+
+            <div class="menu-item">
+              <img src="images/starter-6.jpg" alt="starter-6">
+              <div class="menu-detail">
+                <h4 class="item-name" data-i18n="roast_beef">Roast Beef with Vegetable</h4>
+                <p class="desc-name" data-i18n="roast_beef_desc">Green beans, rib eye, olive oil, beef</p>
+              </div>
+
+              <div class="dot-line"></div>
+              <div class="price-wrap">
+                <h4 class="wrap-item">
+                  $40
+                </h4>
+              </div>
+            </div>
+
+
+            <div class="menu-item">
+              <img src="images/starter-7.jpg" alt="starter-7">
+              <div class="menu-detail">
+                <h4 class="item-name" data-i18n="marrkesh_text">Marrkesh Vegetetarian Curruy</h4>
+                <p class="desc-name" data-i18n="marrkesh_desc">Sweet potato, eggplant, garbanzo beand</p>
+              </div>
+
+              <div class="dot-line"></div>
+              <div class="price-wrap">
+                <h4 class="wrap-item">
+                  $25
+                </h4>
+              </div>
+            </div>
+
+
+            <div class="menu-item">
+              <img src="images/starter-8.jpg" alt="starter-8">
+              <div class="menu-detail">
+                <h4 class="item-name" data-i18n="spicy_vegan">Spicy Vegan Potato Curry</h4>
+                <p class="desc-name" data-i18n="spicy_desc">Coconut milk, beans, potatoes, curry powder</p>
+              </div>
+
+              <div class="dot-line"></div>
+              <div class="price-wrap">
+                <h4 class="wrap-item">
+                  $35
+                </h4>
+              </div>
+            </div>
+
+          </div>
+          <div class="menu-wrap">
+            <h4 class="menu-title" data-i18n="desserts">Desserts</h4>
+            <div class="menu-item">
+              <img src="images/starter-9.jpg" alt="starter-9">
+              <div class="menu-detail">
+                <h4 class="item-name" data-i18n="apple_text">Apple Pie with Cream</h4>
+                <p class="desc-name" data-i18n="apple_desc">Whipping cream, egg white, cinnamon</p>
+              </div>
+
+              <div class="dot-line"></div>
+              <div class="price-wrap">
+                <h4 class="wrap-item">
+                  $15
+                </h4>
+              </div>
+            </div>
+
+
+            <div class="menu-item">
+              <img src="images/starter-10.jpg" alt="starter-10">
+              <div class="menu-detail">
+                <h4 class="item-name" data-i18n="lemon_text">Lemon Meringue Pie</h4>
+                <p class="desc-name" data-i18n="lemon_desc">Frozen pie crust, meringue, lemon</p>
+              </div>
+
+              <div class="dot-line"></div>
+              <div class="price-wrap">
+                <h4 class="wrap-item">
+                  $30
+                </h4>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+  <section class="testemo-section">
+    <div class="container">
+      <div class="testemo-subtitle">
+        <p class="testemo-subtitle__item" data-i18n="testimonial_subtitle">Testimonial</p>
+      </div>
+      <h3 class="testemo__title" data-i18n="clients_say">
+        our clients say
+      </h3>
+      <p class="testemo-title__content" data-i18n="clients_desc">
+        We love to hear from customers, so please leave a comment or say hello in an email.
+      </p>
+
+      <div class="testemonial-area">
+        <div class="testemonial-slider swiper">
+          <div class="swiper-wrapper" id="swiper__wrapper">
+            <div class="testemonial-slider__item swiper-slide">
+              <div class="author__wrap">
+                <div class="testemonial-author__wrap">
+                  <img src="./images/natasha-d.jpg" alt="natasha-d">
+                </div>
+                <div class="quote__wrap">
+                  <img src="./images/vector-1.png" alt="vector-1">
+                </div>
+                <div class="testemonial-author__content">
+                  <h4 class="client-name">
+                    Natasha D
+                  </h4>
+                  <p class="client-address">
+                    Newyork
+                  </p>
+                </div>
+              </div>
+
+              <p class="author__desc" data-i18n="author__desc">
+                They known for its fabulous taste and food.
+                Anywhere you go your hunger is satisfied.
+                The best chicken & burgers those are yummy.
+              </p>
+            </div>
+            <div class="testemonial-slider__item swiper-slide">
+              <div class="author__wrap">
+                <div class="testemonial-author__wrap">
+                  <img src="./images/test-2.jpg" alt="test-2">
+                </div>
+                <div class="quote__wrap">
+                  <img src="./images/vector-1.png" alt="vector-1">
+                </div>
+                <div class="testemonial-author__content">
+                  <h4 class="client-name">Jack Sparrow</h4>
+                  <p class="client-address">Salt Lake City</p>
+                </div>
+              </div>
+
+              <p class="author__desc" data-i18n="author_desc_2">
+                I have visited this fantastic restaurant on <br> several occasions, food is absolutely <br> outstanding
+                & attention to detail is in <br> league of its own.
+              </p>
+            </div>
+
+            <div class="testemonial-slider__item swiper-slide">
+              <div class="author__wrap">
+                <div class="testemonial-author__wrap">
+                  <img src="./images/test-3.jpg" alt="test-3">
+                </div>
+                <div class="quote__wrap">
+                  <img src="./images/vector-1.png" alt="vector-1">
+                </div>
+                <div class="testemonial-author__content">
+                  <h4 class="client-name">Martin</h4>
+                  <p class="client-address">San Diego</p>
+                </div>
+              </div>
+
+              <p class="author__desc" data-i18n="author_desc_3">
+                Perfectly known for its fabulous taste and food.
+                Anywhere your hunger is satisfied. They give
+                best fried chicken and burgers those are yummy.
+              </p>
+            </div>
+
+            <div class="testemonial-slider__item swiper-slide">
+              <div class="author__wrap">
+                <div class="testemonial-author__wrap">
+                  <img src="./images/test-4.jpg" alt="test-4">
+                </div>
+                <div class="quote__wrap">
+                  <img src="./images/vector-1.png" alt="vector-1">
+                </div>
+                <div class="testemonial-author__content">
+                  <h4 class="client-name">David Lue</h4>
+                  <p class="client-address">Newyork</p>
+                </div>
+              </div>
+
+              <p class="author__desc" data-i18n="author_desc_4">
+                A Restaurant with a lovely bar and intimate dining area.
+                Food is sensational, exciting, highly 
+                innovative, the service is friendly & professional.
+              </p>
+            </div>
+
+            <div class="testemonial-slider__item swiper-slide">
+              <div class="author__wrap">
+                <div class="testemonial-author__wrap">
+                  <img src="./images/natasha-d.jpg" alt="natasha-d">
+                </div>
+                <div class="quote__wrap">
+                  <img src="./images/vector-1.png" alt="vector-1">
+                </div>
+                <div class="testemonial-author__content">
+                  <h4 class="client-name">Natasha D</h4>
+                  <p class="client-address">Newyork</p>
+                </div>
+              </div>
+
+              <p class="author__desc" data-i18n="author__desc">
+                They known for its fabulous taste and food.
+                Anywhere you go your hunger is satisfied.
+                The best chicken & burgers those are yummy.
+              </p>
+            </div>
+
+
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+  </section>
+
+  <div class="parralex-section"></div>
+
+  <section class="special-dish__section">
+    <div class="container">
+      <div class="special-dish__wrap">
+        <div class="dish-title">
+          <p class="dish-subtitle" data-i18n="offers_subtitle">offers</p>
+        </div>
+        <h3 class="dish-item__title" data-i18n="offers_title">Our Offer dishes <br></h3>
+        <p class="dish-item__desc" data-i18n="offers_desc">Our chefs create melt-in-your-mouth dishes that'll satiate
+          even the fussiest eaters
+          now <br>
+          the dishes are in offers use it based on hunger.</p>
+
+      </div>
+      <div class="dish-image__wrap">
+        <div class="grid__wrap wrap-2">
+          <div class="grid-wrap__item-1">
+            <div class="grid-left__wrap">
+              <div class="rate-wrap-1">
+                <div class="offers_content">
+                  <p class="only-title-1" data-i18n="only">Only</p>
+                  <h3 class="only-value-1">$10</h3>
+                </div>
+              </div>
+              <div class="main-content">
+                <div class="offer-wrap">
+                  <p class="offer-title" data-i18n="offer_going">
+                    50% Offer Going
+                  </p>
+                </div>
+                <h3 class="offer-item__name" data-i18n="chicken_burger">
+                  Chicken Burger
+                </h3>
+                <p class="offer-item__desc" data-i18n="chicken_burger_desc">
+                  Chicken burger with the tasty toppings and leaves.
+                </p>
+              </div>
+            </div>
+
+            <div class="right-wrap">
+              <img src="images/burger-1.png" alt="burger-1">
+            </div>
+          </div>
+
+          <div class="dish-item-two">
+            <div class="dish-left-wrap">
+              <div class="pizza-offer">
+                <div class="offer-rate-contents">
+                  <p class="offer-white-text" data-i18n="only">
+                    Only
+                  </p>
+                  <h3 class="price-value">
+                    $9
+                  </h3>
+                </div>
+              </div>
+              <div class="main-content-wrap">
+                <div class="offer-wrap">
+                  <p class="offer-title" data-i18n="offer_going">
+                    50% Offer Going
+                  </p>
+                </div>
+                <h3 class="offer-item__name" data-i18n="chicken_pizza">
+                  Chicken Pizza
+                </h3>
+
+                <p class="offer-item__desc" data-i18n="chicken_pizza_desc">
+                  Pizza with multiple flavor and the toping are mixed.
+                </p>
+
+
+              </div>
+            </div>
+            <div class="dish-right-wrap">
+              <img src="images/pizza.png" alt="pizza">
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="popular-dish-section">
+    <div class="container">
+      <div class="popular-dish-container">
+        <div class="section-title-wrap">
+          <div class="section-subtitle-wrap">
+            <p class="section-subtitle" data-i18n="popular_subtitle">
+              menu
+            </p>
+          </div>
+
+          <h3 class="section-title" data-i18n="popular_title">
+            Popular Dishes
+            <br>
+          </h3>
+          <p class="section-title-item" data-i18n="popular_desc">
+            There is a game between the waiters in restaurant to see who serves the food to
+            <br>
+            each table fastest. That led to attempting the Guinness Record.
+          </p>
+        </div>
+        <div class="popular-dish-grid" id="popular-dish-grid">
+          <div class="popular-grid-item">
+            <img src="./images/popular-dish-image-1.jpg" class="popular-dish-image" alt="popular-dish-image-1">
+            <div class="popular-dish-contents">
+              <div class="popular-dish-wrap">
+                <h4 class="popular-dish-name" data-i18n="chicken_manjoori">Chicken Manjoori</h4>
+                <h4 class="popular-dish-price">$15</h4>
+              </div>
+              <p class="popular-dish-title" data-i18n="chicken_manjoori_desc">
+                Dish relished by all age groups as a starter dish at parties.
+              </p>
+            </div>
+          </div>
+
+          <div class="popular-grid-item">
+            <img src="./images/popular-dish-image-2.jpg" class="popular-dish-image" alt="popular-dish-image-2">
+            <div class="popular-dish-contents">
+              <div class="popular-dish-wrap">
+                <h4 class="popular-dish-name" data-i18n="hotdog">Hotdog</h4>
+                <h4 class="popular-dish-price">$10</h4>
+              </div>
+              <p class="popular-dish-title" data-i18n="hotdog_desc">
+                Grilled sausage served in the slit of a partially sliced bun.
+              </p>
+            </div>
+          </div>
+
+          <div class="popular-grid-item">
+            <img src="./images/popular-dish-image-3.jpg" class="popular-dish-image" alt="popular-dish-image-3">
+            <div class="popular-dish-contents">
+              <div class="popular-dish-wrap">
+                <h4 class="popular-dish-name" data-i18n="fresh_salmon">Fresh Salmon</h4>
+                <h4 class="popular-dish-price">$5</h4>
+              </div>
+              <p class="popular-dish-title" data-i18n="fresh_salmon_desc">
+                Beat the health blues with our Super Immune Blue Juice Recipe.
+              </p>
+            </div>
+          </div>
+
+          <div class="popular-grid-item">
+            <img src="./images/popular-dish-image-4.jpg" class="popular-dish-image" alt="popular-dish-image-4">
+            <div class="popular-dish-contents">
+              <div class="popular-dish-wrap">
+                <h4 class="popular-dish-name" data-i18n="veg_burger">Veg Burger</h4>
+                <h4 class="popular-dish-price">$10</h4>
+              </div>
+              <p class="popular-dish-title" data-i18n="veg_burger_desc">
+                Burgers may be made from ingredients like beans.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button-wrap">
+        <a href="#" data-i18n="see_all_dishes">See all dishes</a>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="service-section">
+    <div class="container">
+      <div class="service-content-wrap">
+        <div class="service-grid">
+          <div class="service-title-wrap">
+            <div class="section-title-wrap section-title-left">
+              <div class="section-subtitle-wrap">
+                <p class="section-subtitle subtitle-white" data-i18n="what_we_offer">
+                  What we offer
+                </p>
+              </div>
+              <h3 class="title-white" data-i18n="our_services">Our Great Services
+                <br>
+              </h3>
+              <p class="service-title-content" data-i18n="services_desc">
+                The atmosphere set the stage. It's about more than just a dining room away from your home. food takes
+                the spotlight as guests.
+              </p>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="service-item-wrap">
+              <img src="./images/service-icon-1.svg" alt="service-icon-1" class="service-icon">
+              <h4 class="service-item-title" data-i18n="opened_247">
+                Opened 24/7
+              </h4>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-wrap">
+              <img src="./images/service-icon-2.svg" alt="service-icon-2" class="service-icon">
+              <h4 class="service-item-title" data-i18n="special_menus">
+                Special Menus
+              </h4>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-wrap">
+              <img src="./images/service-icon-3.svg" alt="service-icon-3" class="service-icon">
+              <h4 class="service-item-title" data-i18n="home_delivery">
+                Home Delivery
+              </h4>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog-section">
+    <div class="container">
+      <div class="blog-title-wrap">
+        <div class="blog-section-wrap">
+          <div class="blog-subtitle-wrap">
+            <p class="blog-subtitle" data-i18n="blog_subtitle">
+              Blog
+            </p>
+          </div>
+          <h3 class="blog-title" data-i18n="blog_title">
+            Be First Who Read News
+            <br>
+          </h3>
+
+          <p class="blog-title-desc" data-i18n="blog_desc">
+            Explore the latest stories about our dishes, offers, <br>
+            events and future plans here.
+            <br>
+          </p>
+        </div>
+        <div class="blog-collections">
+          <div class="blog-collection-list">
+            <div class="blog-collaction-items">
+              <div class="blog-collection-item">
+                <div class="image-wrap">
+                  <img src="images/blog-1.jpg" alt="blog-1" class="blog-image-1">
+
+                  <div class="blog-overlay-wrap">
+                    <div class="blog-item-overlay-wrap">
+                      <a href="#" class="blog-button" data-i18n="view_more">View More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-content-wrap">
+                <div class="meta-wrap">
+                  <a href="#" class="blog-category-link">
+                    <p class="blog-category-desc" data-i18n="blog_cat_delicious">
+                      Delicious
+                    </p>
+                  </a>
+                  <div class="blog-date-wrap">
+                    <p class="blog-date">
+                      March 19, 2022
+                    </p>
+                  </div>
+                </div>
+                <a href="#" class="blog-story-title" data-i18n="blog_story_1">
+                  The Legend of US Cuisine: The Story of Hungry People
+                </a>
+                <p class="blog-story-desc" data-i18n="blog_story_1_desc">
+                  Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the
+                  creative activity to beta test override the food quality.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-collection-list">
+            <div class="blog-collaction-items">
+              <div class="blog-collection-item">
+                <div class="image-wrap">
+                  <img src="images/blog-2.jpg" alt="blog-1" class="blog-image-1">
+
+                  <div class="blog-overlay-wrap">
+                    <div class="blog-item-overlay-wrap">
+                      <a href="#" class="blog-button" data-i18n="view_more">View More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-content-wrap">
+                <div class="meta-wrap">
+                  <a href="#" class="blog-category-link">
+                    <p class="blog-category-desc" data-i18n="blog_cat_cooking">
+                      Cooking
+                    </p>
+                  </a>
+                  <div class="blog-date-wrap">
+                    <p class="blog-date">
+                      March 19, 2022
+                    </p>
+                  </div>
+                </div>
+                <a href="#" class="blog-story-title" data-i18n="blog_story_2">
+                  The Most Popular Delicious Food of Mediterranean Cuisine
+                </a>
+                <p class="blog-story-desc" data-i18n="blog_story_2_desc">
+                  Strategies on low-hanging fruit to identify a ballpark value added matrix economically and the
+                  creative activity to beta test override the food quality.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <section class="resrevation-section">
+    <div class="container">
+      <div class="resrevation-wrap">
+        <div class="resrevation-title-wrap">
+          <div class="resrevation-subtitle-wrap">
+            <p class="resrevation-subtitle" data-i18n="reserve_subtitle">
+              reservation
+            </p>
+
+          </div>
+          <h3 class="resrevation-title" data-i18n="book_table">Book Your Table</h3>
+          <div class="resrevation-form">
+            <form>
+              <div class="form-input-wrap">
+                <input type="text" class="input-field half-width" maxlength="256" placeholder="Name" required
+                  data-i18n-placeholder="placeholder_name">
+                <input type="email" class="input-field half-width" maxlength="256" placeholder="Email" required
+                  data-i18n-placeholder="placeholder_email">
+              </div>
+              <div class="form-input-wrap">
+                <input type="text" class="input-field quarter-width" placeholder="Persons"
+                  data-i18n-placeholder="placeholder_persons">
+                <input type="text" class="input-field quarter-width" placeholder="Timing"
+                  data-i18n-placeholder="placeholder_timing">
+                <input type="text" class="input-field quarter-width" placeholder="Date"
+                  data-i18n-placeholder="placeholder_date">
+              </div>
+              <button type="submit" class="submit-button form-submit-button" value="Book A Table"
+                data-i18n-value="book_table">Book a Table</button>
+            </form>
+            <div class="success-message form-done">
+              <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="error-message form-fail">
+              <div>Oops! Something went wrong while submitting the form</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-section">
+    <div class="container">
+      <div class="footer-wrap">
+        <div class="footer-top-block">
+          <div class="top-grid">
+            <div class="top-link-wrap">
+              <a href="https://instagram.com" class="top-link">#TheTastEat</a>
+            </div>
+
+            <div class="top-logo">
+              <a href="#" class="inline">
+                <img src="./images/logo.png" alt="logo-image">
+              </a>
+            </div>
+            <div class="social-wrap">
+              <div class="social-media__item">
+                <a href="#" class="social-media__items"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-media__items"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-media__items"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="social-media__items"><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-main">
+            <div class="main-grid">
+              <div class="address-widget-item">
+                <div class="widget-title-wrap">
+                  <h3 class="widget-title" data-i18n="contact">
+                    Contact
+                  </h3>
+                </div>
+                <div class="address-content-wrap">
+                  <p class="footer-address">
+                    5 Rue Dalou, 75015 Paris
+                  </p>
+                  <a href="#" class="footer-link">+123 456 789</a>
+                  <a href="#" class="footer-link">josefin@mail.com</a>
+                </div>
+              </div>
+              <div class="subscribe-widget">
+                <p class="subscribe-footer-content" data-i18n="subscribe_content">
+                  Join our mailing list for updates,
+                  <br>
+                  Get news & offers events.
+                  <br>
+                </p>
+                <div class="w-form">
+                  <form class="subscribe-form">
+                    <div class="email-input-wrap">
+                      <input type="email" class="email-input input-2" placeholder="Email" required>
+                    </div>
+
+                    <input type="submit" value="Submit" class="submit-button-widget" data-i18n-value="submit">
+                  </form>
+                  <div class="success-message form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                  </div>
+                  <div class="error-message form-fail">
+                    <div>Oops! Something went wrong while submitting the form</div>
+                  </div>
+                </div>
+              </div>
+              <div class="working-hour">
+                <div class="widget-title-wrap">
+                  <h3 class="widget-title" data-i18n="working_hours">
+                    Working Hours
+                  </h3>
+                </div>
+                <div class="working-hour-wrap" id="working-hour-wrap">
+                  <p class="working-time">
+                    <span class="working-days" data-i18n="mon_fri">
+                      Mon - Fri:
+                    </span>
+                    7.00am – 6.00pm
+                  </p>
+                  <p class="working-time">
+                    <span class="working-days" data-i18n="sat">
+                      Sat:
+                    </span>
+                    7.00am – 6.00pm
+                  </p>
+                  <p class="working-time">
+                    <span class="working-days" data-i18n="sun">
+                      Sun:
+                    </span>
+                    8.00am – 6.00pm
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="copyright">
+    <div class="container">
+      <div class="copyright-content-wrap">
+        <div class="copyright-area">
+          <p class="footer-copright-content" data-i18n="copyright">
+            © Copyright - TastEat | Designed by
+            <a href="https://www.victorflow.com/" target="_blank" class="victorflow-link">VictorFlow - </a>
+            - Powered by
+            <a href="https://webflow.com/" target="_blank" class="webflow-link">Webflow</a>
+          </p>
+        </div>
+        <div class="copyright-link-wrap">
+          <a href="#" class="footer-page-link">Styleguide</a>
+          <a href="#" class="footer-page-link">Licenses</a>
+          <a href="#" class="footer-page-link">Protected</a>
+          <a href="#" class="footer-page-link">Not Found</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="lang.js"></script>
+  <script src="app.js"></script>
+  <script src="swiper.js"></script>
+  <script src="bar.js"></script>
+</body>
+
+</html>
